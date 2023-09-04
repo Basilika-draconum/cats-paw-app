@@ -4,9 +4,9 @@ import LeftAside from "../LeftAside/LeftAside";
 
 const SharedLayout = () => {
   return (
-    <div className="font-custom container mx-auto px-4 grid grid-cols-2 bg-mainBg">
+    <div className="font-custom container h-screen mx-auto flex bg-mainBg justify-between overflow-hidden">
       <LeftAside />
-      <main className="col-span-1">
+      <main className="flex-1 ">
         <Outlet />
       </main>
     </div>

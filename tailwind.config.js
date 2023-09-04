@@ -19,9 +19,23 @@ module.exports = {
       },
       fontSize: {
         44: "44px",
+        20: "20",
       },
       container: {
         padding: "2rem",
+      },
+      padding: {
+        "10px": "10px",
+        "30px": "30px",
+        "72px": "72px",
+        "65px": "65px",
+      },
+      width: {
+        672: "38rem",
+        138: "8rem",
+      },
+      height: {
+        832: "43rem",
       },
     },
   },
